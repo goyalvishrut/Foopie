@@ -6,9 +6,7 @@ class Constants {
 
         const val BASE_URL = "https://api.spoonacular.com"
         const val BASE_IMAGE_URL = "https://spoonacular.com/cdn/ingredients_100x100/"
-        const val API_KEY = "54c2acc55beb4f7596a0b8f248658e5a"
-//        const val API_KEY = "c47fa7a0ad1f47a4a0db418234af7d50"
-//        const val API_KEY = ""
+        const val API_KEY = ""
 
         const val RECIPE_RESULT_KEY ="recipeBundle"
 
