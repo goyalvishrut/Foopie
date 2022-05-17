@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_navigation"
+    app:startDestination="@id/recipeFragment">
+
+
+    <fragment
+        android:id="@+id/recipeFragment"
+        android:name="com.example.foopie.ui.fragments.recipe.RecipeFragment"
+        android:label="Recipes"
+        tools:layout="@layout/fragment_recipe">
+        <action
+            android:id="@+id/action_recipeFragment_to_recipesBottomSheet"
+            app:destination="@id/recipesBottomSheet" />
+        <argument
+            android:name="backFromBottomSheet"
+            android:defaultValue="false"
+            app:argType="boolean" />
+        <action
+            android:id="@+id/action_recipeFragment_to_detailsActivity"
+            app:destination="@id/detailsActivity" />
+        <action
+            android:id="@+id/action_recipeFragment_to_recipesBottomSheetNew"
+            app:destination="@id/recipesBottomSheetNew" />
+    </fragment>
+    <fragment
+        android:id="@+id/favoriteFragment"
+        android:name="com.example.foopie.ui.fragments.favorite.FavoriteFragment"
+        android:label="Favorite Recipes"
+        tools:layout="@layout/fragment_favorite">
+        <action
+            android:id="@+id/action_favoriteFragment_to_detailsActivity"
+            app:destination="@id/detailsActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/foodJokeFragment"
+        android:name="com.example.foopie.ui.fragments.foodjoke.FoodJokeFragment"
+        android:label="Food Joke"
+        tools:layout="@layout/fragment_foodjoke" />
+    <dialog
+        android:id="@+id/recipesBottomSheet"
+        android:name="com.example.foopie.ui.fragments.recipe.bottomsheet.RecipesBottomSheet"
+        android:label="recipes_bottom_sheet"
+        tools:layout="@layout/recipes_bottom_sheet">
+        <action
+            android:id="@+id/action_recipesBottomSheet_to_recipeFragment"
+            app:destination="@id/recipeFragment"
+            app:popUpTo="@id/recipeFragment"
+            app:popUpToInclusive="true" />
+    </dialog>
+    <activity
+        android:id="@+id/detailsActivity"
+        android:name="com.example.foopie.ui.DetailsActivity"
+        android:label="Details"
+        tools:layout="@layout/activity_details">
+        <argument
+            android:name="result"
+            app:argType="com.example.foopie.models.Result" />
+    </activity>
+    <dialog
+        android:id="@+id/recipesBottomSheetNew"
+        android:name="com.example.foopie.ui.fragments.recipe.bottomsheet.RecipesBottomSheetNew"
+        android:label="recipes_bottom_sheet_new"
+        tools:layout="@layout/recipes_bottom_sheet_new">
+        <action
+            android:id="@+id/action_recipesBottomSheetNew_to_recipeFragment"
+            app:destination="@id/recipeFragment"
+            app:popUpTo="@id/recipeFragment"
+            app:popUpToInclusive="true" />
+    </dialog>
+</navigation>

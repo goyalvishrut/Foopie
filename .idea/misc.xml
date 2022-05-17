@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../layout/custom_preview.xml" value="0.14074074074074075" />
+        <entry key="app/src/main/res/drawable/gradient_overlay.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_error_placeholder.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_favorite.xml" value="0.288" />
+        <entry key="app/src/main/res/drawable/ic_filter_nutrient.xml" value="0.2115" />
+        <entry key="app/src/main/res/drawable/ic_heart.xml" value="0.288" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.283" />
+        <entry key="app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_restaurant.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_splash_screen_light.xml" value="0.25" />
+        <entry key="app/src/main/res/font/courgette.xml" value="0.12037037037037036" />
+        <entry key="app/src/main/res/layout/activity_details.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.26031746031746034" />
+        <entry key="app/src/main/res/layout/favorite_recipe_row_layout.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_favorite.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_foodjoke.xml" value="0.2" />
+        <entry key="app/src/main/res/layout/fragment_ingredients.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_instruction.xml" value="0.18931159420289856" />
+        <entry key="app/src/main/res/layout/fragment_over_view.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_overview.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_recipe.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_recipes_bottom_sheet_new.xml" value="0.190625" />
+        <entry key="app/src/main/res/layout/fragment_recipes_buttom_sheet.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_recipie.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/ingreddients_row_layout.xml" value="0.18931159420289856" />
+        <entry key="app/src/main/res/layout/ingredients_row_layout.xml" value="0.12188365650969529" />
+        <entry key="app/src/main/res/layout/placeholder_row_layout.xml" value="0.375" />
+        <entry key="app/src/main/res/layout/recipes_bottom_sheet.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/recipes_bottom_sheet_new.xml" value="0.30520833333333336" />
+        <entry key="app/src/main/res/layout/recipes_buttom_sheet.xml" value="0.375" />
+        <entry key="app/src/main/res/layout/recipie_row_layout.xml" value="0.1" />
+        <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.29322916666666665" />
+        <entry key="app/src/main/res/menu/details_menu.xml" value="0.25677083333333334" />
+        <entry key="app/src/main/res/menu/favorite_recipe_menu.xml" value="0.24259259259259258" />
+        <entry key="app/src/main/res/menu/favorites_contextual_menu.xml" value="0.24259259259259258" />
+        <entry key="app/src/main/res/menu/food_joke_menu.xml" value="0.1" />
+        <entry key="app/src/main/res/menu/recipes_menu.xml" value="0.1" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="NullableNotNullManager">
+    <option name="myDefaultNullable" value="androidx.annotation.Nullable" />
+    <option name="myDefaultNotNull" value="androidx.annotation.NonNull" />
+    <option name="myNullables">
+      <value>
+        <list size="12">
+          <item index="0" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.compatqual.NullableDecl" />
+          <item index="1" class="java.lang.String" itemvalue="org.jetbrains.annotations.Nullable" />
+          <item index="2" class="java.lang.String" itemvalue="androidx.annotation.Nullable" />
+          <item index="3" class="java.lang.String" itemvalue="org.eclipse.jdt.annotation.Nullable" />
+          <item index="4" class="java.lang.String" itemvalue="com.android.annotations.Nullable" />
+          <item index="5" class="java.lang.String" itemvalue="edu.umd.cs.findbugs.annotations.Nullable" />
+          <item index="6" class="java.lang.String" itemvalue="androidx.annotation.RecentlyNullable" />
+          <item index="7" class="java.lang.String" itemvalue="android.support.annotation.Nullable" />
+          <item index="8" class="java.lang.String" itemvalue="javax.annotation.CheckForNull" />
+          <item index="9" class="java.lang.String" itemvalue="javax.annotation.Nullable" />
+          <item index="10" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.qual.Nullable" />
+          <item index="11" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.compatqual.NullableType" />
+        </list>
+      </value>
+    </option>
+    <option name="myNotNulls">
+      <value>
+        <list size="11">
+          <item index="0" class="java.lang.String" itemvalue="androidx.annotation.RecentlyNonNull" />
+          <item index="1" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.qual.NonNull" />
+          <item index="2" class="java.lang.String" itemvalue="com.android.annotations.NonNull" />
+          <item index="3" class="java.lang.String" itemvalue="androidx.annotation.NonNull" />
+          <item index="4" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.compatqual.NonNullType" />
+          <item index="5" class="java.lang.String" itemvalue="edu.umd.cs.findbugs.annotations.NonNull" />
+          <item index="6" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.compatqual.NonNullDecl" />
+          <item index="7" class="java.lang.String" itemvalue="android.support.annotation.NonNull" />
+          <item index="8" class="java.lang.String" itemvalue="org.jetbrains.annotations.NotNull" />
+          <item index="9" class="java.lang.String" itemvalue="javax.annotation.Nonnull" />
+          <item index="10" class="java.lang.String" itemvalue="org.eclipse.jdt.annotation.NonNull" />
+        </list>
+      </value>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.1" />
+      </ProjectState>
+    </option>
+  </component>
+</project>
